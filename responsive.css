@@ -1,0 +1,222 @@
+@media only screen and (max-width: 1279px) {
+    .sectio-items__picture-image {
+        max-width: 100%;
+    }
+
+    .category .category__list-items {
+        width: calc(25% - 14px);
+        padding: 2.5rem 1.6rem;
+    }
+
+    .category .category__list-image {
+        height: 180px;
+    }
+
+    .category .category__list-title {
+        font-size: 1.8rem;
+    }
+
+    .category .category__list-link {
+        font-size: 1.4rem;
+    }
+}
+
+
+@media only screen and (max-width: 1023px) {
+    .btn {
+        font-size: 1.7rem;
+        padding: 1rem 1.4rem;
+    }
+
+    .category .category__list-items {
+        width: calc(50% - 22.5px);
+        margin-bottom: 6rem;
+    }
+
+    .section {
+        padding-top: 1.2rem;
+    }
+
+    .section .section-items:nth-child(even),
+    .section .section-items:nth-child(odd)  {
+        flex-direction: column;
+    }
+
+    .section .section-items:nth-child(odd)
+    .section-items__picture {
+        margin-right: 0;
+    }
+
+    .section .section-items:nth-child(even)
+    .section-items__picture {
+        margin-left: 0;
+    }
+    
+    .section .section-items__picture {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    .section .section-items__picture,
+    .section .section-items__content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section .section-category {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .section .section-category__text {
+        min-width: 320px;
+    }
+
+    .section .--round-stylez::before {
+        left: 26%;
+    }
+
+    .subscripe .subscripe__container {
+        flex-direction: column;
+    }
+
+    .subscripe .subscripe-form {
+        width: 100%;
+    }
+
+    .subscripe .subscripe-form__info {
+        margin: 3.2rem 0;
+    }
+
+    .footer .footer__container {
+        flex-wrap: wrap;
+    }
+
+    .footer .footer-items {
+        width: 100%;
+    }
+
+    .footer-logo {
+        margin-bottom: 2rem;
+    }
+
+    .footer {
+        padding: 4rem 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header {
+     padding-top: 2.2rem;
+    }
+
+    .content .content__heading {
+        font-size: 5.2rem;
+    }
+
+    .content__description  {
+        font-size: 1.6rem !important;
+    }
+
+    .header .nav-menu {
+        display: none;
+    }
+
+    .header .header-bars {
+        display: block;
+        font-size: 25px;
+        margin-left: auto;
+        cursor: pointer;
+    }
+
+    .partners .partners-list { 
+        flex-direction: column;
+    }
+
+    .partners .partners-list li:not(:last-child) {
+        margin-bottom: 12px;
+    }
+
+    .partners__container-title {
+        padding-bottom: 4rem;
+    }
+
+    .subscripe {
+        padding: 10rem 0;
+    }
+
+    .gallery {
+        padding-top: 6rem;
+    }
+
+    .gallery .gallery-list {
+        flex-wrap: wrap;
+        margin-bottom: -24px;
+    }
+
+    .gallery .gallery-list__items {
+        width: calc(50% - 12px);
+        margin-bottom: 24px;
+    }
+
+    .copyright__container {
+        flex-wrap: wrap;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .copyright {
+        padding: 2rem 0;
+    }
+
+    .copyright-left {
+        margin-bottom: 12px;
+    }
+
+}
+
+@media only screen and (max-width: 479px) {
+    .content .content__heading {
+        font-size: 3.8rem;
+    }
+
+    .category .category__list-items {
+        width: 100%;
+    }
+
+    .section .section-items__content-title {
+        font-size: 2.5rem;
+    }
+
+    .section .section-wrapper__items-title {
+        font-size: 1.5rem;
+    }
+
+    .section .section-category {
+        justify-content: initial;
+    }
+
+    .section .section-items__content-desc,
+    .section .section-category__text {
+        font-size: 1.5rem;
+    }
+
+    .section .section-category__text {
+        text-align: left;
+        min-width: 100%;
+    }
+
+    .section .--round-style::before {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .subscripe .subscripe-social__icon:not(:last-child){
+        padding-right: 1.8rem;
+    }
+
+    .subscripe .subscripe-social__icon {
+        font-size: 2.2rem;
+    }
+}
