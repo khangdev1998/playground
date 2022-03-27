@@ -1,6 +1,6 @@
 # playground
 
-VN - Giao diện được cắt qua template PSD, gồm ngôn ngữ HTML/CSS
+Giao diện được cắt qua template PSD, gồm ngôn ngữ HTML/CSS
 
 **_Preview Website:_** https://khangdev1998.github.io/playground <br>
 
